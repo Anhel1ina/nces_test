@@ -1,0 +1,15 @@
+.chart{
+    width: 60%;
+    margin: 20px auto;
+
+    & canvas{
+        width: 100% !important;
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 800px){
+    .chart{
+        width: 90%;
+    }
+}

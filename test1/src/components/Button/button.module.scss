@@ -1,0 +1,12 @@
+.send_button{
+    text-transform: uppercase;
+    color: black;
+    height: 56px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    border: none;
+
+    &:hover{
+        background-color: darkgray;
+    }
+}

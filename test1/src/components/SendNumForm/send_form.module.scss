@@ -1,0 +1,17 @@
+.send_form{
+    width: 60%;
+    margin: 10px auto 40px;
+
+    display: flex;
+    flex-direction: column;
+
+    & div{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 800px){
+    .send_form{
+        width: 90%;
+    }
+}
